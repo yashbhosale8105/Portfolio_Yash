@@ -58,11 +58,11 @@ const projects = [
 const achievements = [
   {
     id: "hacknova",
-    title: "HACKNOVA 12H HACKATHON",
+    title: "HACKNOVA 12H NATIONAL HACKATHON",
     status: "RUNNER UP (AI/ML TRACK)",
     venue: "Shivajirao S. Jondhale College",
     date: "MARCH 2026",
-    description: "Secured the 2nd position among 50+ teams by developing an innovative AI solution for the hackathon's AI/ML track.",
+    description: "Secured the 2nd position among 50+ national teams by developing an innovative AI solution for the hackathon's AI/ML track.",
     team: "TEAM NEXUS",
     certificate: "/achievements/cert_hacknova.jpg"
   },
