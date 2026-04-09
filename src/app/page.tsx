@@ -62,9 +62,19 @@ const achievements = [
     status: "RUNNER UP (AI/ML TRACK)",
     venue: "Shivajirao S. Jondhale College",
     date: "MARCH 2026",
-    description: "Secured the 2nd position among 50+ national teams by developing an innovative AI solution for the hackathon's AI/ML track.",
+    description: "Secured the 2nd position among 50+ teams by developing an innovative AI solution for the hackathon's AI/ML track.",
     team: "TEAM NEXUS",
     certificate: "/achievements/cert_hacknova.jpg"
+  },
+  {
+    id: "nakshatra",
+    title: "NAKSHATRA: A TECH HACKATHON",
+    status: "TOP 8 FINALIST (FINTECH)",
+    venue: "A.P. Shah Institute of Technology",
+    date: "APRIL 2026",
+    description: "Secured a position in the Top 8 Finalists for the FinTech track. Developed 'SAHILoan', an end-to-end decentralized lending platform featuring automated loan approvals and transparent blockchain-based repayment tracking.",
+    team: "TEAM NEXUS",
+    certificate: "/achievements/cert_nakshatra.jpg"
   },
   {
     id: "hackstomp",
