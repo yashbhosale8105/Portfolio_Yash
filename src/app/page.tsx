@@ -100,7 +100,7 @@ const achievements = [
 
 const skillData = [
   { name: "LANGUAGES", skills: ["Python", "JavaScript", "SQL", "C", "C++"] },
-  { name: "FRONTEND", skills: ["React.js", "Next.js", "Tailwind CSS", "HTML5"] },
+  { name: "FRONTEND", skills: ["React.js", "Next.js", "HTML5"] },
   { name: "BACKEND & DB", skills: ["Node.js", "Express.js", "MySQL", "RESTful APIs"] },
   { name: "TOOLS & AI", skills: ["Git", "GitHub", "Data Analysis", "Machine Learning"] },
 ];
@@ -485,12 +485,12 @@ export default function Home() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.1 }}
-                    className="border-r-2 border-b-2 border-black last:border-r-0 p-8 group hover:bg-black hover:text-white transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] glass-card shadow-sm"
+                    className="border-r-2 border-b-2 border-black last:border-r-0 p-8 group hover:bg-black hover:text-white transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] bg-white/80 backdrop-blur-md shadow-sm"
                   >
                     <p className="text-[#FF3000] group-hover:text-[#FF3000] font-black text-xs tracking-widest uppercase mb-6">
                       0{i + 1}.
                     </p>
-                    <h3 className="font-black text-base uppercase tracking-tight mb-6">{cat.name}</h3>
+                    <h3 className="font-black text-base uppercase tracking-tight mb-6 group-hover:text-white transition-colors duration-300">{cat.name}</h3>
                     <div className="flex flex-wrap gap-2">
                       {cat.skills.map((skill, j) => (
                         <span
